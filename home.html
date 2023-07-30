@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <script src="./js/bootstrap.min.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome chose 16 team</h1>
+      <div class="container text-center">
+        <!-- ROW 1 -->
+        <div class="row">
+          <div class="col-sm argentina">
+            <button type="button" class="btn" onclick="select('argentina',1)">
+              <img src="./banderas/Flag_of_Argentina.svg.webp" alt="" name="Argentina"/>
+            </button><br>
+            <label for="">Argentina</label>
+          </div>
+          <div class="col-sm belgica">
+            <button type="button" class="btn" onclick="select('belgica',2)">
+              <img src="./banderas/Flag_of_Belgium_(civil).svg.webp" alt="" />
+            </button><br>
+            <label for="">Belgica</label>
+          </div>
+          <div class="col-sm brasil">
+            <button type="button" class="btn" onclick="select('brasil',3)">
+              <img src="./banderas/Flag_of_Brazil.svg.webp" alt="" />
+            </button><br>
+            <label for="">Brasil</label>
+          </div>
+          <div class="col-sm canadad">
+            <button type="button" class="btn" onclick="select('canadad',4)">
+              <img src="./banderas/Flag_of_Canada.svg.webp" alt="" />
+            </button><br>
+            <label for="">Canada</label>
+          </div>
+          <div class="col-sm croacia">
+            <button type="button" class="btn" onclick="select('croacia',5)">
+              <img src="./banderas/Flag_of_Croatia.svg.webp" alt="" />
+            </button><br>
+            <label for="">Croacia</label>
+          </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row">
+          <div class="col-sm dinamarca">
+            <button type="button" class="btn" onclick="select('dinamarca',6)">
+              <img src="./banderas/Flag_of_Denmark.svg.webp" alt="" />
+            </button><br>
+            <label for="">Dinamarca</label>
+          </div>
+          <div class="col-sm ecuador">
+            <button type="button" class="btn" onclick="select('ecuador',7)">
+              <img src="./banderas/Flag_of_Ecuador.svg.webp" alt="" />
+            </button><br>
+            <label for="">Ecuador</label>
+          </div>
+          <div class="col-sm inglaterra">
+            <button type="button" class="btn" onclick="select('inglaterra',8)">
+              <img src="./banderas/Flag_of_England.svg.webp" alt="" />
+            </button><br>
+            <label for="">Inglaterra</label>
+          </div>
+          <div class="col-sm francia">
+            <button type="button" class="btn" onclick="select('francia',9)">
+              <img
+                src="./banderas/Flag_of_France_(1794–1815,_1830–1974,_2020–present).svg.webp"
+                alt=""
+              />
+            </button><br>
+            <label for="">Francia</label>
+          </div>
+          <div class="col-sm japon">
+            <button type="button" class="btn" onclick="select('japon',10)">
+              <img src="./banderas/Flag_of_Japan.svg.webp" alt="" />
+            </button><br>
+            <label for="">Japon</label>
+          </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="row">
+          <div class="col-sm mexico">
+            <button type="button" class="btn" onclick="select('mexico',11)">
+              <img src="./banderas/Flag_of_Mexico.svg.webp" alt="" />
+            </button><br>
+            <label for="">Mexico</label>
+          </div>
+          <div class="col-sm polonia">
+            <button type="button" class="btn" onclick="select('polonia',12)">
+              <img src="./banderas/Flag_of_Poland.svg.webp" alt="" />
+            </button><br>
+            <label for="">Polonia</label>
+          </div>
+          <div class="col-sm portugal">
+            <button type="button" class="btn" onclick="select('portugal',13)">
+              <img src="./banderas/Flag_of_Portugal.svg.webp" alt="" />
+            </button><br>
+            <label for="">Portugal</label>
+          </div>
+          <div class="col-sm españa">
+            <button type="button" class="btn" onclick="select('españa',14)">
+              <img src="./banderas/Flag_of_Spain.svg.webp" alt="" />
+            </button><br>
+            <label for="">España</label>
+          </div>
+          <div class="col-sm suiza">
+            <button type="button" class="btn" onclick="select('suiza',15)">
+              <img src="./banderas/Flag_of_Switzerland.svg.webp" alt="" />
+            </button><br>
+            <label for="">Suiza</label>
+          </div>
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="row">
+          <div class="col-sm holanda">
+            <button type="button" class="btn" onclick="select('holanda',16)">
+              <img src="./banderas/Flag_of_the_Netherlands.svg.webp" alt="" />
+            </button><br>
+            <label for="">Holanda</label>
+          </div>
+          <div class="col-sm usa">
+            <button type="button" class="btn" onclick="select('usa',17)">
+              <img src="./banderas/Flag_of_the_United_States.svg.webp" alt="" />
+            </button><br>
+            <label for="">USA</label>
+          </div>
+          <div class="col-sm uruguay">
+            <button type="button" class="btn" onclick="select('uruguay',18)">
+              <img src="./banderas/Flag_of_Uruguay.svg.webp" alt="" />
+            </button><br>
+            <label for="">Uruguay</label>
+          </div>
+          <div class="col-sm gales">
+            <button type="button" class="btn" onclick="select('gales',19)">
+              <img src="./banderas/Flag_of_Wales.svg.webp" alt="" />
+            </button><br>
+            <label for="">Gales</label>
+          </div>
+          <div class="col-sm alemania">
+            <button type="button" class="btn" onclick="select('alemania',20)">
+              <img src="./banderas/Germany.svg.webp" alt="" />
+            </button><br>
+            <label for="">Alemania</label>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <!-- BUTTON -->
+      <div class="d-grid gap-2 divBtn">
+        <button class="btn btn-primary btnComenzar" type="button" onclick="start()">Comenzar</button>
+      </div>
+    </div>
+
+    <script src="./js/home.js"></script>i
+  </body>
+</html>

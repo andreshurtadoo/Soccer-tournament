@@ -1,0 +1,20 @@
+h1{
+	text-align: center;
+}
+
+.col-sm{
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid white;
+
+}
+
+.col-sm:hover{
+	border: 2px solid blueviolet;
+	transition:1s
+}
+
+a {
+    color: #FFFF;
+    text-decoration: none;
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Torneo</title>
+  </head>
+  <body onload="load()">
+    <div style="text-align: center;">
+      <span>Mundial Qatar 2022</span><br>
+      <span class="time">Time</span>
+    </div>
+
+    <div>
+      <main class="svelte-5od0ji">
+        <div class="tournament-container" style="display: block">
+          <div class="tournament-headers svelte-5od0ji"><h3 class="svelte-5od0ji">Octavos</h3> 
+            <!-- <h3 class="svelte-5od0ji">Octavos</h3>  -->
+            <h3 class="svelte-5od0ji">Cuartos</h3> 
+            <h3 class="svelte-5od0ji">Semifinales</h3> 
+            <h3 class="svelte-5od0ji">Final</h3>
+            <h3 class="svelte-5od0ji">Semifinales</h3> 
+            <h3 class="svelte-5od0ji">Cuartos</h3> 
+            <h3 class="svelte-5od0ji">Octavos</h3> 
+          </div>
+          <!-- Left -->
+          <div class="container-left">
+            <div class="tournament-brackets svelte-5od0ji" id="container_left">
+              <!-- Octavos -->
+              <ul class="bracket bracket-1 svelte-5od0ji">
+                <!-- oct1 -->
+                <li class="team-item svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pOct1a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj ">
+                      <span class="oct1a"></span>
+                      <span class="scoreOct1a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pOct1b" >
+                    <span class="tt undefined false svelte-e0osoj ">
+                      <span class="oct1b"></span>
+                      <span class="scoreOct1b">0</span>
+                    </span>
+                  </p>
+                </li>
+
+                <!-- oct2 -->
+                <li class="team-item svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pOct2a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct2a"></span>
+                      <span class="scoreOct2a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pOct2b">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct2b"></span>
+                      <span class="scoreOct2b">0</span>
+                    </span>
+                  </p>
+                </li>
+
+                <!-- oct3 -->
+                <li class="team-item svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pOct3a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct3a"></span>
+                      <span class="scoreOct3a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pOct3b">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct3b"></span>
+                      <span class="scoreOct3b">0</span>
+                    </span>
+                  </p>
+                </li>
+
+                <!-- oct4 -->
+                <li class="team-item svelte-5od0ji">
+                  <p class="svelte-e0osoj pOct4a">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct4a"></span>
+                      <span class="scoreOct4a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p
+                    class="svelte-e0osoj pOct4b"
+                  >
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct4b"></span>
+                      <span class="scoreOct4b">0</span>
+                    </span>
+                  </p>
+                </li>
+              </ul>
+
+              <!-- Cuartos -->
+              <ul class="bracket bracket-2 svelte-5od0ji">
+                <li class="team-item svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pCuar1a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar1a"></span>
+                      <span class="scoreCuar1a">0</span>
+                    </span
+                    >
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p
+                    class="svelte-e0osoj pCuar1b"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar1b"></span>
+                      <span class="scoreCuar1b">0</span>
+                    </span
+                    >
+                  </p>
+
+                </li>
+                <li class="team-item svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pCuar2a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar2a"></span>
+                      <span class="scoreCuar2a">0</span>
+                    </span
+                    >
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p
+                    class="svelte-e0osoj pCuar2b"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar2b"></span>
+                      <span class="scoreCuar2b">0</span>
+                    </span
+                    >
+                  </p>
+                </li>
+              </ul>
+
+              <!-- Semis -->
+              <ul class="bracket bracket-3 svelte-5od0ji">
+                <li class="team-item svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pSemi1a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="semi1a"></span>
+                      <span class="scoreSemi1a">0</span>
+                    </span
+                    >
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p
+                    class="svelte-e0osoj pSemi1b"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="semi1b"></span>
+                      <span class="scoreSemi1b">0</span>
+                    </span
+                    >
+                  </p>
+                </li>
+              </ul>
+
+              <!-- Final -->
+              <ul class="bracket bracket-4 svelte-5od0ji">
+                <li class="team-item svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pFinala"
+                  >
+                    <span class="tt false false svelte-e0osoj"
+                      >
+                      <span class="finala"></span>
+                      <span class="scoreFinala">0</span>
+                    </span
+                    >
+                    <span class="star stara svelte-e0osoj"></span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Rigth -->
+          <div class="container-rigth">
+            <div class="tournament-brackets svelte-5od0ji" id="container_right">
+              <!-- Final -->
+              <ul class="bracket bracket-4 svelte-5od0ji">
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pFinalb"
+                  >
+                    <span class="tt false false svelte-e0osoj"
+                      >
+                      <span class="finalb"></span>
+                      <span class="scoreFinalb">0</span>
+                    </span
+                    >
+                    <span class="star starb svelte-e0osoj"></span>
+                  </p>
+                </li>
+              </ul>
+
+              <!-- Semis -->
+              <ul class="bracket bracket-3 svelte-5od0ji">
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pSemi2a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="semi2a"></span>
+                      <span class="scoreSemi2a">0</span>
+                    </span
+                    >
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pSemi2b">
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="semi2b"></span>
+                      <span class="scoreSemi2b">0</span>
+                    </span
+                    >
+                  </p>
+                </li>
+              </ul>
+
+              <!-- Cuartos -->
+              <ul class="bracket bracket-2 svelte-5od0ji">
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p class="svelte-e0osoj pCuar3a">
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar3a"></span>
+                      <span class="scoreCuar3a">0</span>
+                    </span
+                    >
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p
+                    class="svelte-e0osoj pCuar3b"
+                  >
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar3b"></span>
+                      <span class="scoreCuar3b">0</span>
+                    </span
+                    >
+                  </p>
+                </li>
+
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p class="svelte-e0osoj pCuar4a">
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar4a"></span>
+                      <span class="scoreCuar4a">0</span>
+                    </span
+                    >
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pCuar4b">
+                    <span class="tt undefined false svelte-e0osoj"
+                      >
+                      <span class="cuar4b"></span>
+                      <span class="scoreCuar4b">0</span>
+                    </span
+                    >
+                  </p>
+                </li>
+              </ul>
+
+              <!-- Octavos -->
+              <ul class="bracket bracket-1 svelte-5od0ji">
+                <!-- oct5 -->
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p class="svelte-e0osoj pOct5a">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct5a"></span>
+                      <span class="scoreOct5a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pOct5b">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct5b"></span>
+                      <span class="scoreOct5b">0</span>
+                    </span>
+                  </p>
+                </li>
+
+                <!-- oct6 -->
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p
+                    class="svelte-e0osoj pOct6a"
+                  >
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct6a"></span>
+                      <span class="scoreOct6a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pOct6b">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct6b"></span>
+                      <span class="scoreOct6b">0</span>
+                    </span>
+                  </p>
+                </li>
+
+                <!-- oct7 -->
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p class="svelte-e0osoj pOct7a">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct7a"></span>
+                      <span class="scoreOct7a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p
+                    class="svelte-e0osoj pOct7b"
+                  >
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct7b"></span>
+                      <span class="scoreOct7b">0</span>
+                    </span>
+                  </p>
+                </li>
+
+                <!-- oct8 -->
+                <li class="team-item-rigth svelte-5od0ji">
+                  <p class="svelte-e0osoj pOct8a">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct8a"></span>
+                      <span class="scoreOct8a">0</span>
+                    </span>
+                  </p>
+                  <hr class="svelte-5od0ji" />
+                  <p class="svelte-e0osoj pOct8b">
+                    <span class="tt undefined false svelte-e0osoj">
+                      <span class="oct8b"></span>
+                      <span class="scoreOct8b">0</span>
+                    </span>
+                  </p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+
+    <div class="height svelte-cmily5">
+      <p class="winner svelte-1l6f0ck"></p>
+      <div class="button svelte-cmily5 otraSimulacion"></div>
+    </div>
+
+    <script src="./js/logica.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
